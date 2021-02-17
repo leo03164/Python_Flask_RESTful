@@ -73,7 +73,6 @@ class User(Resource):
         else:
             return {'message': "user not found"}, 204    
 
-
 class UserList(Resource):
 
     def get(self):
